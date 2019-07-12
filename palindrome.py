@@ -1,11 +1,11 @@
-n=int(input())
-temp=n
+x=int(input())
+tem=x
 rev=0
 while(n>0):
-    dig=n%10
+    dig=x%10
     rev=rev*10+dig
-    n=n//10
-if(temp==rev):
+    x=x//10
+if(tem==rev):
     print('yes')
 else:
     print('no')
