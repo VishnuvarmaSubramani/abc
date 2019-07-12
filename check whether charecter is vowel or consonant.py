@@ -1,5 +1,5 @@
 list=['a','A','e','E','i','I','o','O','u','U']
-char=input("")
+char=input()
 if char.isalpha():
   if char in list:
     print("Vowel")
