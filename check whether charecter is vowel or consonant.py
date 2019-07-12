@@ -2,8 +2,8 @@ list=['a','A','e','E','i','I','o','O','u','U']
 char=input("")
 if char.isalpha():
   if char in list:
-    print("vowel")
+    print("Iowel")
   else:
-    print("consonant")
+    print("Consonant")
 else:
-  print("Invalid")
+  print("invalid")
