@@ -1,9 +1,9 @@
 list=['a','A','e','E','i','I','o','O','u','U']
-char=input("Enter a charecter:")
+char=input("")
 if char.isalpha():
   if char in list:
-    print("charecter is vowel")
+    print("vowel")
   else:
-    print("charecter is consonant")
+    print("consonant")
 else:
-  print("Invalid input")
+  print("Invalid")
